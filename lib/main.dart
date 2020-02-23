@@ -94,6 +94,7 @@ class _MyPageState extends State<MyPage> {
             childAspectRatio: 1.2,
             children: <Widget>[
               RaisedButton(
+                color: Colors.brown,
                 onPressed: () {
                   setState(
                     () {
@@ -105,6 +106,7 @@ class _MyPageState extends State<MyPage> {
                 child: Image.asset('res/4min.bmp'),
               ),
               RaisedButton(
+                color: Colors.brown,
                 onPressed: () {
                   setState(
                     () {
@@ -116,6 +118,7 @@ class _MyPageState extends State<MyPage> {
                 child: Image.asset('res/6min.bmp'),
               ),
               RaisedButton(
+                color: Colors.brown,
                 onPressed: () {
                   setState(
                     () {
@@ -127,6 +130,7 @@ class _MyPageState extends State<MyPage> {
                 child: Image.asset('res/8min.bmp'),
               ),
               RaisedButton(
+                color: Colors.brown,
                 onPressed: () {
                   setState(
                     () {
