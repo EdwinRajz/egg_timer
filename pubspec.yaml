@@ -11,16 +11,22 @@ dependencies:
     sdk: flutter
 
 
-  cupertino_icons: ^0.1.2
+  cupertino_icons: ^0.1.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  assets_audio_player: ^1.2.3
 
 
 flutter:
-
   uses-material-design: true
-
-
+  assets:
+    - res/qsound.mp3
+    - res/soft.jpg
+    - res/hard.jpg
+    - res/times.jpg
+    - res/4min.bmp
+    - res/6min.bmp
+    - res/8min.bmp
+    - res/10min.bmp
