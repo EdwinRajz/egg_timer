@@ -29,8 +29,7 @@ class _MyPageState extends State<MyPage> {
 
   String getTime() {
     final int minutes = progress ~/ 60;
-    final String seconds =
-        progress.remainder(60).toInt().toString().padLeft(2, '0');
+    final String seconds = progress.remainder(60).toInt().toString().padLeft(2, '0');
     return '$minutes:$seconds';
   }
 
